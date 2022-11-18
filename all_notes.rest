@@ -1,8 +1,14 @@
+GET http://localhost:3001/api/notes
+
 ###
 POST http://localhost:3001/api/notes
 Content-Type: Application/json
 
 {
-  "content": "fullstack developmet is interesting",
+  "content": "full",
   "important": false
 }
+
+###
+PUT http://localhost:3001/api/notes/63759a385593ae2f21f79c60
+Content-Type: Application/json
