@@ -28,13 +28,10 @@ const note = new Note({
 });
 
 if (false) {
-  note
-    .save()
-    .then(() => {
-      console.log("note saved!");
-      mongoose.connection.close();
-    })
-    .catch((err) => console.log(err));
+  note.save().then(() => {
+    console.log("note saved!");
+    mongoose.connection.close();
+  });
 }
 
 Note.find({}).then((result) => {
