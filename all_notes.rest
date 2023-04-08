@@ -1,15 +1,7 @@
 GET http://localhost:3001/api/notes
 
 
-###
-POST http://localhost:3001/api/notes
-Content-Type: Application/json
 
-{
-  "content": "full",
-  "important": false,
-  "userId": "5cf3843433439384"
-}
 
 ###
 PUT http://localhost:3001/api/notes/63759a385593ae2f21f79c60
